@@ -1,0 +1,91 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+   
+    background: url("techspire3.jpg") no-repeat center fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 20px;
+   
+}
+
+
+header {
+    
+   
+    color: #1a1918; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    background-color: rgb(246, 201, 212);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    z-index: 100;
+}
+
+form {
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="submit"],
+button a {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Blue submit button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button a {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button a:hover {
+    background-color: #007bff;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+*{
+    margin :auto;
+   
+    padding:0%;
+}
+
+#img{
+    width:100%;
+     position :absolute;
+     z-index:-1;
+     background-size:cover;
+
+
+}
+input{
+    color:rgb(78, 14, 181);
+    padding:10px;
+    width:80%; 
+    margin:10px;
+    background-color: azure;
+    font-size: 15px;
+}
+
+p{
+    color:rebeccapurple;
+    padding:10px;
+    margin:5px;
+}
+.container{
+padding:20px;
+flex-direction:column;
+
+}
+
+#top{
+color:rgb(237, 91, 230);
+text-align: center;
+font-size: larger;
+}

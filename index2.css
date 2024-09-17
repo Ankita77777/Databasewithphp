@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b4d5f1;
+    color: #333;
+}
+
+button {
+    font:bold;
+    color: rgb(237, 229, 229);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+h1{
+    background-color: #b4d5f1;
+    color:black;
+}
+.edit{
+    background-color: rgb(21, 204, 30);
+    color:white;
+}
+.dlt{
+    background-color: red;
+    color:white;
+}
+.add{
+    background-color: rgb(21, 219, 18);
+}
